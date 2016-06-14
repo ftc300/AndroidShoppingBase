@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView  
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"  
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pull_refresh_scrollview"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        ptr:ptrAnimationStyle="rotate" 
+        ptr:ptrMode="pullFromStart" >  
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:background="#d9d9d9" 
+            android:layout_height="match_parent" >
+
+            <com.shoping.mall.ui.DiscoverInfiniteLoopViewPager
+                android:id="@+id/fragment_main_top_viewpager"
+                android:layout_width="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_height="200dp" />
+
+            
+             <com.shoping.mall.ui.NoScrollGridView
+                android:id="@+id/fragment_main_grid_view"
+                android:layout_width="match_parent"
+                android:layout_below="@id/fragment_main_top_viewpager"
+                android:divider="@android:color/black"
+                android:dividerHeight="1dp"
+                android:background="@android:color/white"
+                android:layout_marginBottom="5dp"
+                android:numColumns="4"
+                android:listSelector="@android:color/transparent"
+                android:layout_height="wrap_content" 
+                android:fadingEdge="none" />
+             
+            <com.shoping.mall.ui.NoScrollListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:layout_below="@id/fragment_main_grid_view"
+                android:divider="@android:color/black"
+                android:listSelector="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:fadingEdge="none"/>
+        </RelativeLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</RelativeLayout>

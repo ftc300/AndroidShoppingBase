@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".OkHttpMainActivity" >
+
+    <TextView
+        android:id="@+id/test_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heard"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#Ff9834"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/fa_google_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_google_plus"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#87619a"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/fa_thumbs_o_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_thumbs_o_up"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#976523"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/fa_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_save"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#954278"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/fa_toggle_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_toggle_on"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#273896"
+        android:textSize="50sp" />
+    <TextView
+        android:id="@+id/fa_modx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_modx"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:textSize="50sp" />
+    <TextView
+        android:id="@+id/deletecircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deletecircle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00ff00"
+        android:textSize="50sp" />
+    <TextView
+        android:id="@+id/person_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/person_file"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#273896"
+        android:textSize="50sp" />
+    <TextView
+        android:id="@+id/un_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/un_register"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff0000"
+        android:textSize="50sp" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidShoppingBase</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_percent">百分比</string>
+    <string name="action_dialog">对话框</string>
+    <string name="action_head">设置头像</string>
+    <string name="action_baidu_map">百度地图</string>
+    <string name="action_pull_push">下拉上拉放大视图</string>
+    <string name="action_web_js">AndroidJs调用</string>
+    <string name="action_color_bar">Android沉浸式变色状态栏</string>
+    <string name="action_guide_page">欢迎引导页</string>
+    <string name="action_webview_page">WebView页面</string>
+    <string name="action_cookie_page">Cookie</string>
+
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="update_title_text">更新提示</string>
+    <string name="map_head_text">地图地址</string>
+    <string name="receiving_address_title">地址显示</string>
+    
+    
+    <!-- font awe some -->
+    <string name="heard">&#xf004;</string>
+	<string name="fa_google_plus">&#xf0d5;</string>
+	<string name="fa_save">&#xf0c7;</string>
+	<string name="fa_thumbs_o_up">&#xf087;</string>
+	<string name="fa_toggle_on">&#xf205;</string>
+	<string name="fa_modx">&#xf285;</string>
+	
+	<string name="deletecircle">&#xe6b5;</string>
+	<string name="person_file">&#xe669;</string>
+	<string name="un_register">&#xe66c;</string>
+	<!-- 
+	 -->
+</resources>

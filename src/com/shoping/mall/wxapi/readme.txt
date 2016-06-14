@@ -1,0 +1,4 @@
+当使用支付功能时，用PayActivity要使用nowkey下面的签名文件，用Old1PayActivity要使用oldkey下面的签名文件
+不按上面的做，将无法正常使用使用支付功能
+
+微信中的其他功能，请使用nowkey下面的签名文件

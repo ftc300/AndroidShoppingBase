@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+    
+    <declare-styleable name="PercentLayout_Layout">
+        <attr name="layout_widthPercent" format="string"/>
+        <attr name="layout_heightPercent" format="string"/>
+        <attr name="layout_marginPercent" format="string"/>
+        <attr name="layout_marginLeftPercent" format="string"/>
+        <attr name="layout_marginTopPercent" format="string"/>
+        <attr name="layout_marginRightPercent" format="string"/>
+        <attr name="layout_marginBottomPercent" format="string"/>
+        <attr name="layout_marginStartPercent" format="string"/>
+        <attr name="layout_marginEndPercent" format="string"/>
+        <attr name="layout_textSizePercent" format="string"/>
+        <attr name="layout_maxWidthPercent" format="string"/>
+        <attr name="layout_maxHeightPercent" format="string"/>
+        <attr name="layout_minWidthPercent" format="string"/>
+        <attr name="layout_minHeightPercent" format="string"/>
+    </declare-styleable>
+    
+    
+     <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer"/>
+        <attr name="donut_max" format="integer"/>
+
+        <attr name="donut_unfinished_color" format="color"/>
+        <attr name="donut_finished_color" format="color"/>
+
+        <attr name="donut_finished_stroke_width" format="dimension"/>
+        <attr name="donut_unfinished_stroke_width" format="dimension"/>
+
+        <attr name="donut_text_size" format="dimension"/>
+        <attr name="donut_text_color" format="color"/>
+
+        <attr name="donut_prefix_text" format="string"/>
+        <attr name="donut_suffix_text" format="string"/>
+
+        <attr name="donut_background_color" format="color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sec_kill_please_input_verification_code_sum_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/dialog_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/dialog_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_title_text" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/dialog_title_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/dialog_title_layout"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@color/blue_btn_bg_color" />
+
+    <RelativeLayout
+        android:id="@+id/dialog_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/dialog_cancel_button"
+            style="@style/dialog_blue_button"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/gray_button_background"
+            android:text="@string/dialog_cancel" />
+
+        <Button
+            android:id="@+id/dialog_confirm_button"
+            style="@style/dialog_blue_button"
+            android:layout_alignParentRight="true"
+            android:text="@string/dialog_ok" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/dialog_button_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/dialog_button_layout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@color/blue_btn_bg_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/dialog_button_line_view"
+        android:layout_below="@id/dialog_title_line_view"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dialog_update_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarFadeDuration="2000"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="" />
+
+        <LinearLayout
+            android:id="@+id/dialog_progress_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ProgressBar
+                android:id="@+id/dialog_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100" />
+
+            <TextView
+                android:id="@+id/dialog_update_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

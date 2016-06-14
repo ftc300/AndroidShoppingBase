@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    
+    android:background="#ff00ff"
+    android:orientation="vertical"
+    tools:context=".VolleyActivity">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+	    android:fitsSystemWindows="true"
+	    android:clipToPadding="true"
+        android:background="#009959"
+        android:text="ssss" />
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#ff669d"/>
+
+</LinearLayout>
+

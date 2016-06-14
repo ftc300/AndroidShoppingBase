@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.shoping.mall.study.pullpushlayout.PullPushLayout
+        android:id="@+id/top_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0000" >
+
+        <RelativeLayout
+            android:id="@+id/top_parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/top_content_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                
+                <RelativeLayout
+                android:id="@+id/rl_top"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lol"
+                     />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_content"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:layout_below="@id/rl_top"
+                android:background="@android:color/white"
+                 >
+
+                <ImageView
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="300dp"
+                    android:scaleType="fitXY"
+                    android:layout_width="210dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/icon_club"
+                   />
+         
+            </RelativeLayout>
+                
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/top_layout_hint_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top_content_layout"
+                android:background="#eeeeee"
+                android:gravity="center"
+                android:text="继续拖动，查看图文详情"
+                android:textColor="#aaaaaa" />
+        </RelativeLayout>
+    </com.shoping.mall.study.pullpushlayout.PullPushLayout>
+
+    <ScrollView
+        android:id="@+id/bottom_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00fff0" >
+
+        <RelativeLayout
+            android:id="@+id/bottom_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/b"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@android:color/white"
+                    android:gravity="center" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
