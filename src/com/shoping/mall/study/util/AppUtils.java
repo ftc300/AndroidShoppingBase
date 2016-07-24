@@ -1,5 +1,7 @@
 package com.shoping.mall.study.util;
 
+import com.shoping.mall.application.MallApp;
+
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -60,6 +62,11 @@ public class AppUtils
 			e.printStackTrace();
 		}
 		return null;
+	}
+
+	public static boolean networkIsAvailable(MallApp instance) {
+
+		return false;
 	}
 
 }
