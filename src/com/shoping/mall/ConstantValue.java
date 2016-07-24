@@ -168,7 +168,7 @@ public interface ConstantValue {
 	 * 服务器地址
 	 */
 
-	String SERVER_URL = "http://192.168.253.1:8080/ECService";
+	String SERVER_URL = "http://172.26.213.1:8080/ECService";
 
 	/**
 	 * 帮助连接

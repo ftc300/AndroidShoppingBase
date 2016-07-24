@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 import android.widget.Button;
 
 import com.shoping.mall.R;
@@ -20,6 +21,7 @@ import com.shoping.mall.engine.category.CategoryTabFragment;
 import com.shoping.mall.study.cardslidepanel.CardViewMainActivity;
 import com.shoping.mall.study.pullpushlayout.PullPushActivity;
 import com.shoping.mall.study.retrofit2.RetrofitMainActivity;
+import com.shoping.mall.study.web.WebViewActivity;
 
 public class MainFragment extends BaseFragment implements OnClickListener {
 
@@ -207,8 +209,8 @@ public class MainFragment extends BaseFragment implements OnClickListener {
 //			Intent intent = new Intent(mContext,RetrofitMainActivity.class);
 //			Intent intent = new Intent(mContext,OkHttpMainActivity.class);
 //			Intent intent = new Intent(mContext,BmobAcitvity.class);
-			
-//			startActivity(intent);
+			Intent intent = new Intent(mContext, WebViewActivity.class);
+			startActivity(intent);
 			break;
 		case R.id.fragment_my_shopping_menu_btn:
 //			Intent intent1 = new Intent(mContext,PullPushActivity.class);
